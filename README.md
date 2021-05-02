@@ -1,1 +1,1 @@
-# image-to-haiku
+# Image to Haiku
