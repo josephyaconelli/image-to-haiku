@@ -38,7 +38,7 @@ nltk.download('wordnet')
 # In[610]:
 
 if len(sys.argv) < 2:
-    print("Usage: python poetry_writer.py path/to/image/image.jpeg")
+    print("Usage: python3 poetry_writer.py path/to/image/image.jpeg")
 
 xme = Image.open(sys.argv[1])
 rgb_im = xme.convert('RGB')
