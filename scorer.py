@@ -112,8 +112,8 @@ def score_image_differences(img1, img2):
 
     scores = []
     src_imgs = [cl2]
-    print(img2.shape)
-    print(img1.shape)
+    #print(img2.shape)
+    #print(img1.shape)
     for i in range(height - 1):
         for j in range(width - 1):
             pixels = []
@@ -155,7 +155,7 @@ def score_haiku(haiku, seed_words, original_img_file):
         scores = [float(s) for s in scores]
         words = []
         for _, s in sentences_and_scores:
-            print(s)
+            #print(s)
             for w in s:
                 if w in ["<start>", "<end>"]:
                     continue
